@@ -5,6 +5,8 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import App from './App'
 import router from './router'
+
+
 //插件
 Vue.use(ElementUI)
 
@@ -16,4 +18,5 @@ new Vue({
   router,
   components: { App },
   template: '<App/>'
+  
 })
